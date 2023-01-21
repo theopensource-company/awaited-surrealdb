@@ -1,8 +1,9 @@
 {
 	"name": "@theopensource-company/awaited-surrealdb",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"description": "Surreal.js adapter for React!",
 	"main": "dist/index.js",
+	"type": "module",
 	"scripts": {
 		"build": "tsc src/index.ts -d --outDir dist --target es2021 --moduleResolution node"
 	},
