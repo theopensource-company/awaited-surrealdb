@@ -1,0 +1,56 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@types/node': ^18.11.18
+  surrealdb.js: ^0.5.0
+  typescript: ^4.9.4
+
+dependencies:
+  surrealdb.js: 0.5.0
+
+devDependencies:
+  '@types/node': 18.11.18
+  typescript: 4.9.4
+
+packages:
+
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+    dev: true
+
+  /isomorphic-ws/5.0.0_ws@8.12.0:
+    resolution: {integrity: sha512-muId7Zzn9ywDsyXgTIafTry2sV3nySZeUDe6YedVd1Hvuuep5AsIlqK+XefWpYTyJG5e503F2xIuT2lcU6rCSw==}
+    peerDependencies:
+      ws: '*'
+    dependencies:
+      ws: 8.12.0
+    dev: false
+
+  /surrealdb.js/0.5.0:
+    resolution: {integrity: sha512-CpDfCwVnG3ahr2/kUf3i9RgDtLuEzQeU5Zxuhtud5Ijq9abXzkAhS/gcvtSQ9qyZiqSQcp4u7IK3yjnd1OkqKQ==}
+    dependencies:
+      isomorphic-ws: 5.0.0_ws@8.12.0
+      ws: 8.12.0
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+    dev: false
+
+  /typescript/4.9.4:
+    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /ws/8.12.0:
+    resolution: {integrity: sha512-kU62emKIdKVeEIOIKVegvqpXMSTAMLJozpHZaJNDYqBjzlSYXQGviYwN1osDLJ9av68qHd4a2oSjd7yD4pacig==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: false
