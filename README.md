@@ -12,7 +12,7 @@ This way you have the best of both world :D
 ## Example
 
 ```typescript
-import AwaitedSurreal from '@theopensource-company/awaited-surreal';
+import AwaitedSurreal from '@theopensource-company/awaited-surrealdb';
 
 const SurrealInstance = new AwaitedSurreal({
     endpoint: "http://localhost:8000",
