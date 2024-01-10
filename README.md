@@ -1,3 +1,7 @@
+# ⚠️ NOT MAINTAINED ⚠️
+
+The problem this library solved is now available within the `surrealdb.js` package itself, with the `prepare` function you can pass to it's `.connect()` method. Please use that library instead!
+
 # awaited-surrealdb
 
 This library makes sure to connect & authenticate to your surrealdb database before you execute any query. You can then go on to, for example, make some calls to the database via tanstack query or similar. 
