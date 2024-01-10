@@ -1,6 +1,6 @@
 {
 	"name": "@theopensource-company/awaited-surrealdb",
-	"version": "0.5.1",
+	"version": "0.5.2",
 	"description": "Surreal.js adapter for React!",
 	"main": "dist/index.js",
 	"type": "module",
